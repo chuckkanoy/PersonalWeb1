@@ -1,8 +1,15 @@
-header{
-    background-color: red;
-    text-align: center;
+body{
+    background-color: grey;
+    font-family: 'Righteous', cursive;
+}
+
+header a{
+    text-decoration: none;
     color: white;
-    border: black 3px solid;
+}
+
+header{
+    text-align: center;
 }
 
 ul{
@@ -21,9 +28,16 @@ li a{
     display: block;
     color:white;
     text-align: center;
+    text-decoration: none;
     padding:14px 16px;
 }
 
 li a:hover{
     background-color: red;
+}
+
+footer{
+    background-color: maroon;
+    color: white;
+    padding:14px 16px;
 }
