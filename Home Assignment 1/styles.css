@@ -1,6 +1,7 @@
 body{
     background-color: grey;
     font-family: 'Righteous', cursive;
+    color:white;
 }
 
 header a{
@@ -24,12 +25,21 @@ li{
     float: left;
 }
 
+p a{
+    text-decoration: none;
+    color: white;
+}
+
 li a{
     display: block;
     color:white;
     text-align: center;
     text-decoration: none;
     padding:14px 16px;
+}
+
+nav{
+    border: solid black;
 }
 
 li a:hover{
@@ -39,5 +49,44 @@ li a:hover{
 footer{
     background-color: maroon;
     color: white;
+    border:solid black;
     padding:14px 16px;
+    clear: both;
+}
+
+aside{
+    
+    float: right;
+    padding: 16px 20px;
+}
+
+.container{
+    background-color: maroon;
+    clear:both;
+}
+
+.clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.question-template{
+    background-color: maroon;
+    overflow: auto;
+}
+    
+main, aside{
+    padding: 20px;
+}
+
+main{
+    float: left;
+    color: white;
+    padding:14px 16px;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: black solid;
 }
