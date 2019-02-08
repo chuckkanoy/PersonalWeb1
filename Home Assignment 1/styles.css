@@ -21,7 +21,7 @@ ul{
     background-color: maroon;
 }
 
-li{
+.navbar li{
     float: left;
 }
 
@@ -30,7 +30,7 @@ p a{
     color: white;
 }
 
-li a{
+.navbar li a{
     display: block;
     color:white;
     text-align: center;
@@ -42,7 +42,7 @@ nav{
     border: solid black;
 }
 
-li a:hover{
+.navbar li a:hover{
     background-color: red;
 }
 
@@ -58,6 +58,7 @@ aside{
     
     float: right;
     padding: 16px 20px;
+    width: 15%;
 }
 
 .container{
@@ -84,9 +85,15 @@ main{
     float: left;
     color: white;
     padding:14px 16px;
+    width: 75%;
 }
 
 table, th, td{
     border-collapse: collapse;
     border: black solid;
+}
+
+img{
+    height: 100px;
+    width: 200px;
 }
